@@ -4,6 +4,10 @@
 
 **Puppi Scan**은 반려견의 피부 질환을 AI 기술로 진단하고, 맞춤형 정보를 진단서의 형태로 제공하는 웹 서비스입니다. 사용자는 반려동물의 피부 사진을 업로드하면, YOLOv5 객체 탐지 모델과 CNN 기반 분류기를 통해 피부 질환을 인식하고, Durable 라이브러리를 활용한 룰 기반 매핑과 GPT 기반 요약까지 연계된 사용자 맞춤형 진단서를 받을 수 있습니다.
 
+- [최종보고서.pptx](https://github.com/user-attachments/files/22170370/_.10_.pptx)
+
+<img width="500" height="6000" alt="image" src="https://github.com/user-attachments/assets/b8741947-f7d6-4717-b888-95e20e21d049" />
+
 ## 기술 스택
 
 * **Frontend**
@@ -30,6 +34,8 @@
 ## 데이터 셋
 
 * **YOLO 학습용 이미지**: 반려견 피부 질환 종류별 수집 이미지 (클래스별 수동 라벨링 포함)
+  - [roboflow - doc skin disease](https://universe.roboflow.com/kaivlya/dog-skin-disease-cibrq)
+  - [roboflow - doc skin gabangun](https://universe.roboflow.com/jung-50ezj/dogskin-gabungan-8kux0/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 * **질병 설명 데이터**: 수의학 논문, 공공 데이터 기반 설명문 수집 및 정제
 * **텍스트 학습 데이터**: OpenAI GPT API를 통한 응답 튜닝
 
